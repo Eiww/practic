@@ -174,7 +174,7 @@ h6 {
 }
 
 .main__page--button:hover {
-  color: #fbf2f1;
+  color: #644120;
   font-size: 20px;
   background: hsl(29, 35%, 72%, 60%);
   border-radius: 50px;
@@ -214,6 +214,12 @@ h6 {
   font-size: 32px;
   font-weight: 500;
   padding: 20px 0 20px 0;
+}
+
+.content__sliders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .swiper {
   display: flex;
@@ -301,6 +307,7 @@ h6 {
 }
 .footer__buttons {
   display: flex;
+  justify-content: center;
 }
 .footer--column {
   display: flex;
@@ -328,7 +335,7 @@ h6 {
     font-family: "Jost", sans-serif;
     display: flex;
     width: 453px;
-    height: 745px;
+    height: 645px;
     background-color: #d0b69e;
     justify-content: center;
     align-items: center;
@@ -378,7 +385,6 @@ h6 {
     filter: grayscale(12%) contrast(57%) brightness(179%) sepia(66%)
       hue-rotate(312deg);
   }
-
   .header__favorites:active {
     filter: grayscale(12%) contrast(57%) brightness(179%) sepia(66%)
       hue-rotate(312deg);
@@ -394,6 +400,7 @@ h6 {
   .header {
     display: flex;
     justify-content: flex-end;
+    background-color: #d0b69e;
   }
   .header__logo {
     display: none;
@@ -441,6 +448,6 @@ h6 {
   }
 
   .footer__subtitle {
-    padding: 0 160px 15px 0;
+    padding: 0 95px 15px 0;
   }
 }

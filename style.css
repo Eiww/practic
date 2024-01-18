@@ -162,6 +162,7 @@ header:hover {
 .main__page--button {
   color: #f9dbc2;
   font-family: "Jost", sans-serif;
+  font-weight: 500;
   font-size: 20px;
   background: #644120;
   border-radius: 50px;
@@ -173,9 +174,11 @@ header:hover {
 }
 
 .main__page--button:hover {
-  color: #fbf2f1;
+  color: #644120;
+  font-family: "Jost", sans-serif;
   font-size: 20px;
-  background: hsl(29, 35%, 72%, 60%);
+  font-weight: 500;
+  background: hsla(29, 100%, 90%, 0.867);
   border-radius: 50px;
   border: 3px solid #d0b69e;
   padding: 15px 100px;
@@ -307,7 +310,7 @@ header:hover {
     font-family: "Jost", sans-serif;
     display: flex;
     width: 453px;
-    height: 745px;
+    height: 645px;
     background-color: #d0b69e;
     justify-content: center;
     align-items: center;
@@ -357,6 +360,7 @@ header:hover {
   .header {
     display: flex;
     justify-content: flex-end;
+    background-color: #d0b69e;
   }
   .header__logo {
     display: none;
@@ -415,6 +419,6 @@ header:hover {
   }
 
   .footer__subtitle {
-    padding: 0 160px 15px 0;
+    padding: 0 95px 15px 0;
   }
 }
